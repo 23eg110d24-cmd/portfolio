@@ -143,20 +143,20 @@ export const certifications = [
 export const education = [
   {
     place: "Anurag University",
-    program: "B.Tech Computer Science Engineering",
-    period: "2023-2027",
-    score: "CGPA: 7.57"
+    program: "B.Tech Computer Science and Engineering",
+    period: "Aug 2023 - May 2027",
+    score: "CGPA: 7.57 (Upto 5th Semester)"
   },
   {
-    place: "Deeksha Junior College",
-    program: "Intermediate",
-    period: "Higher Secondary",
-    score: "87%"
+    place: "Deeksha Junior College, Kushaiguda",
+    program: "Class XII",
+    period: "Apr 2023",
+    score: "Percentage: 87%"
   },
   {
-    place: "Sai Siddartha High School",
-    program: "Secondary School",
-    period: "Schooling",
+    place: "Sai Siddartha High School, Dammaiguda",
+    program: "Class X",
+    period: "Mar 2021",
     score: "GPA: 10.0"
   }
 ];

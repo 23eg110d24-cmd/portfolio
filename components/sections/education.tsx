@@ -21,14 +21,12 @@ export function Education() {
             {education.map((item, index) => (
               <motion.article
                 key={item.place}
-                className={`relative sm:grid sm:grid-cols-2 sm:gap-8 ${
-                  index % 2 === 0 ? "" : "sm:[&>div]:col-start-2"
-                }`}
+                className="relative sm:grid sm:grid-cols-2 sm:gap-8"
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
-                <div className="ml-14 sm:ml-0">
+                <div className={`ml-14 sm:ml-0 ${index % 2 === 0 ? "" : "sm:col-start-2"}`}>
                   <div className="glass rounded-3xl p-6">
                     <p className="text-sm font-semibold text-[var(--primary)]">{item.period}</p>
                     <h3 className="mt-2 text-xl font-black text-[var(--text)]">{item.place}</h3>

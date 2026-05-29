@@ -35,24 +35,33 @@ export function About() {
         </div>
 
         <motion.div
-          className="mt-8 grid gap-6 rounded-3xl border border-[var(--border)] bg-[var(--background)] p-6 md:grid-cols-[0.8fr_1.2fr]"
+          className="mt-8 grid gap-6 rounded-3xl border border-[var(--border)] bg-[var(--background)] p-6 md:grid-cols-[1.2fr_0.8fr]"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
-              Profile snapshot
-            </p>
-            <h3 className="mt-3 text-3xl font-black text-[var(--text)]">CGPA 7.57</h3>
-            <p className="mt-3 text-[var(--muted)]">B.Tech Computer Science at Anurag University</p>
-          </div>
           <div className="grid gap-4 sm:grid-cols-2">
+            <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+                Academics
+              </p>
+              <h3 className="mt-2 text-3xl font-black text-[var(--text)]">CGPA 7.57</h3>
+              <p className="mt-1 text-sm text-[var(--muted)]">B.Tech CSE at Anurag University</p>
+            </div>
+            <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+                Achievement
+              </p>
+              <h3 className="mt-2 text-3xl font-black text-[var(--text)]">Rank 4730</h3>
+              <p className="mt-1 text-sm text-[var(--muted)]">Global Rank in TCS CodeVita S13</p>
+            </div>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2">
             {["Machine Learning", "Full Stack Development", "Artificial Intelligence", "Problem Solving"].map(
               (item) => (
                 <div
                   key={item}
-                  className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-4 font-semibold text-[var(--text)]"
+                  className="flex items-center justify-center rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-3 text-center text-sm font-semibold text-[var(--text)]"
                 >
                   {item}
                 </div>

@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --shadow-glow: 0 0 45px rgba(239, 68, 68, 0.24);
+  --color-brand-500: #EF4444;
+  --color-brand-600: #DC2626;
+}
+
 :root {
   color-scheme: light;
   --background: #ffffff;
