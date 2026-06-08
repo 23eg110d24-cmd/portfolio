@@ -132,12 +132,18 @@ export const projects = [
 export const certifications = [
   ["Introduction to Machine Learning", "NPTEL", "ML"],
   ["Introduction to Data Science", "Cisco Networking Academy", "DS"],
-  ["Mastering AI on AWS", "Udemy - School of AI", "AI"],
+  ["Mastering AI on AWS (AI Practitioner)", "Udemy - School of AI", "AI"],
   ["Advanced Automation Professional", "Automation Anywhere", "AA"],
   ["Python Essentials 1", "Cisco Networking Academy", "PY"],
   ["Python Essentials 2", "Cisco Networking Academy", "PY"],
-  ["CCNA: Enterprise Networking, Security, and Automation", "Cisco Networking Academy", "CN"],
-  ["Apply AI: Analyze Customer Reviews", "Cisco Networking Academy", "AI"]
+  ["Introduction to Modern AI", "Cisco Networking Academy", "AI"],
+  ["Apply AI: Analyze Customer Reviews", "Cisco Networking Academy", "AI"],
+  ["Networking Essentials", "Cisco Networking Academy", "CN"],
+  ["Getting Started with Cisco Packet Tracer", "Cisco Networking Academy", "CN"],
+  ["Exploring Networking with Cisco Packet Tracer", "Cisco Networking Academy", "CN"],
+  ["CCNA: Introduction to Networks", "Cisco Networking Academy", "CN"],
+  ["CCNA: Switching, Routing, and Wireless Essentials", "Cisco Networking Academy", "CN"],
+  ["CCNA: Enterprise Networking, Security, and Automation", "Cisco Networking Academy", "CN"]
 ];
 
 export const education = [
