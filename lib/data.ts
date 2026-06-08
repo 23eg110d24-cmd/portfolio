@@ -52,14 +52,14 @@ export const skillGroups = [
     title: "Programming Languages",
     icon: Code2,
     skills: [
-      ["Python", 88],
-      ["Java", 78],
-      ["C", 72],
-      ["SQL", 80],
-      ["R", 68],
-      ["JavaScript", 76],
-      ["HTML", 90],
-      ["CSS", 86]
+      ["Python", 60],
+      ["Java", 55],
+      ["C", 50],
+      ["SQL", 58],
+      ["R", 52],
+      ["JavaScript", 56],
+      ["HTML", 60],
+      ["CSS", 57]
     ]
   },
   {
@@ -78,14 +78,14 @@ export const skillGroups = [
     title: "Frameworks & Technologies",
     icon: Server,
     skills: [
-      ["Spring Boot", 78],
-      ["React", 82],
-      ["Vite", 80],
-      ["Docker", 70],
-      ["JWT", 76],
-      ["REST APIs", 84],
-      ["Spring Security", 74],
-      ["JPA", 72]
+      ["Spring Boot", 40],
+      ["React", 45],
+      ["Vite", 38],
+      ["Docker", 30],
+      ["JWT", 35],
+      ["REST APIs", 42],
+      ["Spring Security", 32],
+      ["JPA", 35]
     ]
   },
   {
